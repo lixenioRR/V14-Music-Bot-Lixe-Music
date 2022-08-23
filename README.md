@@ -4,16 +4,16 @@
 
 
 - [Install node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-version-manager-to-install-nodejs-and-npm)
-- Clone this repository or download as a zip and extract the contents.
+- Bu depoyu klonlayın veya zip olarak indirin ve içeriği çıkarın.
 - Run `npm install`.
 - Rename `token-example.js` to `token.js`
-- Replace `YOUR TOKEN HERE` with your bot token from the Discord Developer Portal. (see the setup video above for how to set up a Discord bot and get your token)
+- Replace `YOUR TOKEN HERE` Discord Geliştirici Portalından bot jetonunuzla. (Discord botunun nasıl kurulacağını ve tokeni almak için Discord Developer sitesine giriniz.)
 - Then, you can either [run the bot normally](#run-normally) or you can [set it up in Windows Task Scheduler](#set-up-in-windows-task-scheduler).
 
 ### Notes on Discord Bot Setup
-- Make sure to enable all intents in the Discord Developer Portal
+- Discord Geliştirici Portalında tüm amaçları etkinleştirdiğinizden emin olun.
 ![image](https://user-images.githubusercontent.com/4060573/181925950-0403ec46-f606-4ae2-bac8-6a2e30d10d9f.png)
-- You will also need to invite the bot using the correct scope and permissions, which you can do here:
+- YAyrıca burada yapabileceğiniz doğru kapsamı ve izinleri kullanarak botu davet etmeniz gerekecektir:
 ![image](https://user-images.githubusercontent.com/4060573/181926061-310e817a-97c5-48d8-adce-77a505c36336.png)
 
 
@@ -44,3 +44,27 @@
 - [Download Visual Studio Code](https://code.visualstudio.com/download)
 
 - [Download NodeJS V17](https://nodejs.org/)
+
+
+MIT License
+
+Copyright (c) 2022 Çağatay Lüleci
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
