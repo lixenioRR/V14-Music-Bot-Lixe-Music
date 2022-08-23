@@ -8,19 +8,19 @@
 - Run `npm install`.
 - Rename `token-example.js` to `token.js`
 - Replace `YOUR TOKEN HERE` Discord Geliştirici Portalından bot jetonunuzla. (Discord botunun nasıl kurulacağını ve tokeni almak için Discord Developer sitesine giriniz.)
-- Then, you can either [run the bot normally](#run-normally) or you can [set it up in Windows Task Scheduler](#set-up-in-windows-task-scheduler).
+- O zaman, ya [run the bot normally](#run-normally) ya da yapabilirsin [set it up in Windows Task Scheduler](#set-up-in-windows-task-scheduler).
 
 ### Notes on Discord Bot Setup
 - Discord Geliştirici Portalında tüm amaçları etkinleştirdiğinizden emin olun.
 ![image](https://user-images.githubusercontent.com/4060573/181925950-0403ec46-f606-4ae2-bac8-6a2e30d10d9f.png)
-- YAyrıca burada yapabileceğiniz doğru kapsamı ve izinleri kullanarak botu davet etmeniz gerekecektir:
+- Ayrıca burada yapabileceğiniz doğru kapsamı ve izinleri kullanarak botu davet etmeniz gerekecektir:
 ![image](https://user-images.githubusercontent.com/4060573/181926061-310e817a-97c5-48d8-adce-77a505c36336.png)
 
 
 ### Run Normally
 - Rename `start.bat.example` to `start.bat`
-- Open the Start Menu and type `cmd`, then open Command Prompt (PowerShell or Windows Terminal will also work)
-- Change to your bot folder by doing `cd YOUR\BOT\FOLDER` (Note: Change your drive letter first if your bot is on another drive letter by typing `E:` (if E is your drive))
+- OBaşlat Menüsüne girin ve cmd yazın, ardından Komut İstemi'ni açın (PowerShell veya Windows Terminali de çalışır)
+- Change to your bot folder by doing `cd YOUR\BOT\FOLDER` (Note: Botunuz başka bir sürücü harfindeyse önce sürücü harfinizi yazarak değiştirin `E:` (if E is your drive))
 
 ### Set up in Windows Task Scheduler
 - Rename `schedule.bat.example` to `schedule.bat`
